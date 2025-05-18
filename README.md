@@ -15,15 +15,16 @@ Input Image(image path / decoded base64) → `preprocess.py` → Symbol Crops �
 
 
 ## Getting Started
-### Clone the repository
+```
+# Clone the repository
 git clone https://github.com/imxiaoxiaohh/project-showcase.git
 
-### Install dependencies
+# Install dependencies
 pip install -r requirements.txt
 
-### Run the API server
+# Run the API server
 python src/api.py
-
+```
 ## Model Training
 The CNN was trained interactively in Google Colab (T4 GPU). All the code lives in `trainCNN.ipynb`, which covers:
 1. **Data Preparation**  
