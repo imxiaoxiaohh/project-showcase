@@ -1,5 +1,5 @@
 # Math Formula Recognizer
-A CNN based system for recognizing handwritten mathematical formulas and converting them to LaTeX or ASCII.
+A CNN based system for recognizing handwritten mathematical formulas and converting them to LaTeX or String.
 
 
 ## Project Overview
@@ -7,7 +7,7 @@ This project implements an end-to-end pipeline that processes images of handwrit
 1. Preprocesses input images to isolate individual mathematical symbols
 2. Classifies each symbol using a custom-trained CNN
 3. Analyzes spatial relationships to detect exponents, fractions, and other mathematical structures
-4. Reconstructs the complete formula in LaTeX or ASCII format
+4. Reconstructs the complete formula in LaTeX or String format
 
 
 ## Architecture & Pipeline
