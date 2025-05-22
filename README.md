@@ -11,7 +11,7 @@ This project implements an end-to-end pipeline that processes images of handwrit
 
 
 ## Architecture & Pipeline
-Input Image(image path / decoded base64) → `preprocess.py` → Symbol Crops → `inference.py` → Symbol Predictions → `postprocess.py` → Spatial Relationships → `combination.py` → LaTeX/ASCII
+Input Image(image path / decoded base64) → `preprocess.py` → Symbol Crops → `inference.py` → Symbol Predictions → `postprocess.py` → Spatial Relationships → `combination.py` → LaTeX/String
 
 
 ## Getting Started
